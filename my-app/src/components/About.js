@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 const About = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Array of content sections
   const slides = [
     {
       title: 'About Us',
